@@ -29,7 +29,7 @@ class MenuContent extends React.Component {
               {this.state.content.map((item, index) => {
                 return (
                   <Tab
-                    fontSize={[10, 14, 16]}
+                    fontSize={[8, 14, 16]}
                     textColor={this.props.data.color}
                     _selected={{
                       transition: "0.5s all",
@@ -49,7 +49,7 @@ class MenuContent extends React.Component {
           </React.Fragment>
 
           <TabPanels
-            fontSize={[10, 14, 16]}
+            fontSize={[9, 14, 16]}
             minH={[10, 250, 300]}
             maxH={[10, 250, 300]}
           >

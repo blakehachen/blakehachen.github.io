@@ -27,8 +27,8 @@ class ProjectCard extends React.Component {
         <Box
           as="flex"
           zIndex={0}
-          w={[240, 340, 340]}
-          h={[350, 450, 450]}
+          w={[280, 340, 340]}
+          h={[400, 450, 450]}
           bg={this.props.data.card_bg}
           boxShadow="2xl"
           onMouseOut={() => this.setState({ hovered: true })}
@@ -46,19 +46,19 @@ class ProjectCard extends React.Component {
               href={this.props.data.link}
               isExternal="true"
             >
-              <HStack alignSelf="flex-start" spacing={[36, 48, 48]}>
+              <HStack alignSelf="flex-start" spacing={[40, 48, 48]}>
                 <Icon
                   color={this.props.data.box_icon}
-                  mx={[3, 5, 5]}
-                  mt={[3, 5, 5]}
+                  mx={[4, 5, 5]}
+                  mt={[4, 5, 5]}
                   as={FiBox}
-                  fontSize={["4xl", "6xl", "6xl"]}
+                  fontSize={["5xl", "6xl", "6xl"]}
                 />
 
                 <Icon
                   color="gray.400"
                   as={ExternalLinkIcon}
-                  fontSize={["lg", "2xl", "2xl"]}
+                  fontSize={["xl", "2xl", "2xl"]}
                   style={{
                     transition: "all 0.25s",
                     color: `${
@@ -100,7 +100,7 @@ class ProjectCard extends React.Component {
                         {this.props.data.color === "#fff" ? (
                           <DarkMode>
                             <Badge
-                              fontSize={["9px", "xs", "xs"]}
+                              fontSize={["10px", "xs", "xs"]}
                               fontWeight="semibold"
                               borderRadius="full"
                               px="2"

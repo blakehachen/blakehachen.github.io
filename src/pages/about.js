@@ -22,14 +22,14 @@ function About() {
     <Box
       boxShadow="dark-lg"
       h="100%"
-      w={[300, 550, 768]}
+      w={[400, 550, 768]}
       as="div"
       sx={containerStyle}
     >
       <VStack>
         <Heading fontSize={[25, 28, 36]} p={10} color={text_color}>
           About Me
-          <Divider mb={[1, 4, 10]} mt={5} bg={text_color} w={[220, 450, 675]} />
+          <Divider mb={[1, 4, 10]} mt={5} bg={text_color} w={[300, 450, 675]} />
         </Heading>
 
         <Box boxSize={["2xs", "xs", "lg"]}>
@@ -42,8 +42,9 @@ function About() {
         </Box>
         <Text
           color={text_color}
-          fontFamily="Source Code Pro"
-          px={[5, 20, 28]}
+          fontFamily="mono"
+          fontStyle="italic"
+          px={[10, 20, 28]}
           pb={[6, 8, 10]}
           fontSize={[12, 16, 18]}
         >
@@ -65,7 +66,7 @@ function About() {
             >
               01. Where I've Been
             </Heading>
-            <Divider bg={text_color} w={[120, 275, 475]} />
+            <Divider bg={text_color} w={[200, 275, 475]} />
           </HStack>
           <Text
             px={[5, 10, 10]}
@@ -105,7 +106,7 @@ function About() {
             >
               02. Where I am
             </Heading>
-            <Divider bg={text_color} w={[150, 325, 525]} />
+            <Divider bg={text_color} w={[240, 325, 525]} />
           </HStack>
           <Text
             px={[5, 10, 10]}
@@ -143,7 +144,7 @@ function About() {
             >
               03. Where I'll be
             </Heading>
-            <Divider bg={text_color} w={[140, 315, 510]} />
+            <Divider bg={text_color} w={[235, 315, 510]} />
           </HStack>
           <Text
             mt={[1, 2, 3]}

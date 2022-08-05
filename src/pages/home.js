@@ -18,7 +18,7 @@ function Home() {
     <Box
       boxShadow="dark-lg"
       h="100%"
-      w={[300, 550, 768]}
+      w={[400, 550, 768]}
       as="div"
       sx={containerStyle}
     >
@@ -26,7 +26,7 @@ function Home() {
         color={text_color}
         fontWeight="bold"
         align="center"
-        py={[0, 0, 0]}
+        py={[5, 0, 0]}
         fontFamily="mono"
         fontSize={[28, 36, 56]}
       >

@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Flex direction="row" as="header">
+      <Flex direction="row" as="div">
         <HStack zIndex={1} shadow="md" sx={flexStyles} spacing="36px">
           {size.width > 746 ? <NavItems /> : <Bars />}
         </HStack>

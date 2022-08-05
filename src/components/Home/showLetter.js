@@ -13,7 +13,7 @@ function Model() {
 
 export default function ShowLetter(props) {
   const bg = useColorModeValue("gray.900", "yellow.50");
-  const border = useColorModeValue("solid white 0.5px", "solid black 0.5px");
+  //const border = useColorModeValue("solid white 0.5px", "solid black 0.5px");
   return (
     <Box
       h={[200, 300, 400]}

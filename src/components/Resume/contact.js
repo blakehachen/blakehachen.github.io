@@ -2,9 +2,6 @@ import React from "react";
 import { Box, Icon, Heading, Link } from "@chakra-ui/react";
 import { SiHandshake, SiLinkedin, SiGithub, SiGmail } from "react-icons/si";
 class Contact extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <React.Fragment>

@@ -21,7 +21,7 @@ function Resume() {
   return (
     <Box
       boxShadow="dark-lg"
-      h={["100vh", "100%", "100%"]}
+      h={["100%", "100%", "100%"]}
       w={[400, 550, 768]}
       as="div"
       sx={containerStyle}
@@ -40,7 +40,7 @@ function Resume() {
         bg={bg_container}
       >
         <Heading
-          fontFamily="Source Code Pro"
+          fontFamily="mono"
           fontWeight="normal"
           color={text_color}
           p={[2, 2, 3]}
@@ -49,7 +49,7 @@ function Resume() {
         >
           Education
         </Heading>
-        <HStack fontSize={[10, 10.5, 16]} spacing={[35, 130, 175]}>
+        <HStack fontSize={[8, 10.5, 16]} spacing={[75, 130, 175]}>
           <Box>
             <HStack px={[2, 2, 3]}>
               <Text color={text_color} pt={[1, 2, 3]} fontWeight="bold">
@@ -63,7 +63,7 @@ function Resume() {
           <Text color={text_color}>Aug 2017 - Aug 2022</Text>
         </HStack>
         <Text
-          fontSize={[10, 10.5, 16]}
+          fontSize={[8, 10.5, 16]}
           color={text_color}
           align="left"
           px={[2, 2, 3]}
@@ -84,7 +84,7 @@ function Resume() {
         bg={bg_container}
       >
         <Heading
-          fontFamily="Source Code Pro"
+          fontFamily="mono"
           fontWeight="normal"
           color={text_color}
           p={[2, 2, 3]}
@@ -94,7 +94,7 @@ function Resume() {
           Skills
         </Heading>
 
-        <HStack fontSize={[9, 10.5, 16]} px={[2, 2, 3]}>
+        <HStack fontSize={[8, 10.5, 16]} px={[2, 2, 3]}>
           <Text align="left" fontStyle="italic" color={text_color}>
             Programming:
           </Text>
@@ -103,7 +103,7 @@ function Resume() {
           </Text>
           <Text color={text_color}>C++, Java, R, CSS/Sass, Rust</Text>
         </HStack>
-        <HStack fontSize={[9, 10.5, 16]} px={[2, 2, 3]}>
+        <HStack fontSize={[8, 10.5, 16]} px={[2, 2, 3]}>
           <Text align="left" fontStyle="italic" color={text_color}>
             Libraries/Frameworks:
           </Text>
@@ -114,7 +114,7 @@ function Resume() {
             jQuery, Mono, Three.js
           </Text>
         </HStack>
-        <HStack fontSize={[9, 10.5, 16]} px={[2, 2, 3]}>
+        <HStack fontSize={[8, 10.5, 16]} px={[2, 2, 3]}>
           <Text align="left" fontStyle="italic" color={text_color}>
             Tools/Platforms:
           </Text>
@@ -132,7 +132,7 @@ function Resume() {
         bg={bg_container}
       >
         <Heading
-          fontFamily="Source Code Pro"
+          fontFamily="mono"
           fontWeight="normal"
           color={text_color}
           p={[1, 2, 3]}
@@ -152,7 +152,7 @@ function Resume() {
       </Box>
       <Box
         py={[2, 5, 7]}
-        mt={[250, 9, 2]}
+        mt={[267, 9, 2]}
         w={[340, 450, 675]}
         bg={bg_container}
       >
