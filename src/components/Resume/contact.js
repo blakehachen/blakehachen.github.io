@@ -7,10 +7,10 @@ class Contact extends React.Component {
       <React.Fragment>
         <Box>
           <Heading
-            fontWeight="semibold"
             color={this.props.data.color}
             fontSize={[19, 22, 28]}
-            fontFamily="Source Code Pro"
+            fontFamily="mono"
+            fontWeight="thin"
           >
             Get in contact.
           </Heading>

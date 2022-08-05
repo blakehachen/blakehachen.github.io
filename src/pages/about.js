@@ -27,7 +27,7 @@ function About() {
       sx={containerStyle}
     >
       <VStack>
-        <Heading fontSize={[25, 28, 36]} p={10} color={text_color}>
+        <Heading fontSize={[25, 28, 36]} p={[10, 14, 10]} color={text_color}>
           About Me
           <Divider mb={[1, 4, 10]} mt={5} bg={text_color} w={[300, 450, 675]} />
         </Heading>

@@ -26,14 +26,15 @@ function Resume() {
       as="div"
       sx={containerStyle}
     >
-      <Heading fontSize={[25, 28, 36]} p={[5, 10, 10]} color={text_color}>
-        Interactive Resume
+      <Heading fontSize={[25, 28, 36]} pt={[5, 14, 10]} color={text_color}>
+        My Resume
         <Divider mb={[1, 4, 5]} mt={5} bg={text_color} w={[340, 450, 675]} />
       </Heading>
       {/* START EDUCATION */}
       <Box
         py={[2, 5, 7]}
-        boxShadow="dark-lg"
+        mt={[8, 10, 14]}
+        boxShadow="2xl"
         border="solid"
         borderColor={link_color}
         w={[340, 450, 675]}
@@ -49,7 +50,7 @@ function Resume() {
         >
           Education
         </Heading>
-        <HStack fontSize={[8, 10.5, 16]} spacing={[75, 130, 175]}>
+        <HStack fontSize={[7, 10.5, 16]} spacing={[100, 130, 175]}>
           <Box>
             <HStack px={[2, 2, 3]}>
               <Text color={text_color} pt={[1, 2, 3]} fontWeight="bold">
@@ -63,7 +64,7 @@ function Resume() {
           <Text color={text_color}>Aug 2017 - Aug 2022</Text>
         </HStack>
         <Text
-          fontSize={[8, 10.5, 16]}
+          fontSize={[7, 10.5, 16]}
           color={text_color}
           align="left"
           px={[2, 2, 3]}
@@ -77,7 +78,7 @@ function Resume() {
       <Box
         py={[2, 5, 7]}
         mt={[4, 5, 6]}
-        boxShadow="dark-lg"
+        boxShadow="2xl"
         border="solid"
         borderColor={link_color}
         w={[340, 450, 675]}
@@ -94,7 +95,7 @@ function Resume() {
           Skills
         </Heading>
 
-        <HStack fontSize={[8, 10.5, 16]} px={[2, 2, 3]}>
+        <HStack fontSize={[7, 10.5, 16]} px={[2, 2, 3]}>
           <Text align="left" fontStyle="italic" color={text_color}>
             Programming:
           </Text>
@@ -103,7 +104,7 @@ function Resume() {
           </Text>
           <Text color={text_color}>C++, Java, R, CSS/Sass, Rust</Text>
         </HStack>
-        <HStack fontSize={[8, 10.5, 16]} px={[2, 2, 3]}>
+        <HStack fontSize={[7, 10.5, 16]} px={[2, 2, 3]}>
           <Text align="left" fontStyle="italic" color={text_color}>
             Libraries/Frameworks:
           </Text>
@@ -114,7 +115,7 @@ function Resume() {
             jQuery, Mono, Three.js
           </Text>
         </HStack>
-        <HStack fontSize={[8, 10.5, 16]} px={[2, 2, 3]}>
+        <HStack fontSize={[7, 10.5, 16]} px={[2, 2, 3]}>
           <Text align="left" fontStyle="italic" color={text_color}>
             Tools/Platforms:
           </Text>
@@ -125,12 +126,7 @@ function Resume() {
       </Box>
       {/*END SKILLS*/}
 
-      <Box
-        py={[2, 5, 7]}
-        mt={[12, 14, 16]}
-        w={[340, 450, 675]}
-        bg={bg_container}
-      >
+      <Box py={[2, 5, 7]} mt={[12, 14, 16]} w={[340, 450, 675]}>
         <Heading
           fontFamily="mono"
           fontWeight="normal"

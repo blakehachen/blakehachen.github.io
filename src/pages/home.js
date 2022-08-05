@@ -26,7 +26,7 @@ function Home() {
         color={text_color}
         fontWeight="bold"
         align="center"
-        py={[5, 0, 0]}
+        pt={[5, 20, 0]}
         fontFamily="mono"
         fontSize={[28, 36, 56]}
       >

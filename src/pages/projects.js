@@ -32,7 +32,7 @@ function Projects() {
   return (
     <Box boxShadow="dark-lg" w={[400, 550, 768]} as="div" sx={containerStyle}>
       <VStack>
-        <Heading fontSize={[25, 28, 36]} p={10} color={text_color}>
+        <Heading fontSize={[25, 28, 36]} p={[7, 14, 10]} color={text_color}>
           My Public Projects
           <Divider mb={[1, 4, 10]} mt={5} bg={text_color} w={[300, 450, 675]} />
         </Heading>
