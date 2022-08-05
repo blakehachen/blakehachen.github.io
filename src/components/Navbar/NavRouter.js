@@ -16,9 +16,9 @@ export default function NavRouter() {
         <Box color={bg} align="center" mt={[10, 20, 20]}>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/resume" element={<Resume />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/projects" element={<Projects />} />
+            <Route exact path="/resume" element={<Resume />} />
           </Routes>
         </Box>
       </Router>
