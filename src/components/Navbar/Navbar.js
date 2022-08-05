@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, HStack, useColorModeValue } from "@chakra-ui/react";
+import { Box, HStack, useColorModeValue } from "@chakra-ui/react";
 import useWindowSize from "./useWindowSize";
 import Bars from "./Bars";
 import NavItems from "./NavItems";
@@ -34,11 +34,17 @@ export default function Navbar() {
 
   return (
     <>
-      <Flex direction="row" as="div">
-        <HStack zIndex={1} shadow="md" sx={flexStyles} spacing="36px">
-          {size.width > 746 ? <NavItems /> : <Bars />}
-        </HStack>
-      </Flex>
+      <HStack
+        position="fixed"
+        top="0"
+        zIndex={1}
+        shadow="md"
+        sx={flexStyles}
+        spacing="36px"
+      >
+        {size.width > 746 ? <NavItems /> : <Bars />}
+      </HStack>
+      <Box mt={[-6, -20, -6]}>.</Box>
     </>
   );
 }

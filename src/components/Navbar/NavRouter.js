@@ -13,7 +13,7 @@ export default function NavRouter() {
     <Box bg={bg}>
       <Router>
         <Navbar />
-        <Box align="center" mt={[10, 20, 20]}>
+        <Box color={bg} align="center" mt={[10, 20, 20]}>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
