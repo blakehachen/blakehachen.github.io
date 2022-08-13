@@ -9,6 +9,14 @@ export default function projList() {
       link: "https://github.com/blakehachen/blakehachen.github.io/tree/master",
     },
     {
+      title: "chitchat",
+      content:
+        "chitchat is a naive clone of reddit (without subreddits), Users have the ability to signup, create discussion threads and write posts for threads created by users. You do not need an authenticated session to read posts or threads. Users also have the ability to like threads if they are logged in. The database for the site is maintained with PostgreSQL using the pq library for the driver.",
+      languages: ["Go", "HTML/CSS"],
+      languageColors: ["blue", "orange"],
+      link: "https://github.com/blakehachen/chitchat",
+    },
+    {
       title: "crypto-trade-bot",
       content:
         "The crypto trade bot is a program that lets users create custom trading strategies to back test and run in various supported markets. On a dry run the bot will trade on the ticker supplied in the config file and watch RSI and Bollinger bands for price predictions. Users can access backtest functionality through PgAdmin.",

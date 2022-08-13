@@ -102,7 +102,7 @@ function Resume() {
           <Text color={text_color} fontWeight="bold">
             C#, JavaScript, Python,
           </Text>
-          <Text color={text_color}>C++, Java, R, CSS/Sass, Rust</Text>
+          <Text color={text_color}>C++, Go, Java, R, CSS/Sass, Rust</Text>
         </HStack>
         <HStack fontSize={[7, 10.5, 16]} px={[2, 2, 3]}>
           <Text align="left" fontStyle="italic" color={text_color}>
